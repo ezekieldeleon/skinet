@@ -1,0 +1,23 @@
+# Ignore build output folders
+bin/
+obj/
+
+# Ignore .NET Core tools
+.vscode/
+.vs/
+*.csproj.user
+*.user
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore generated files
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
+appsettings.local.json
+appsettings.local.*.json
+*.bak
