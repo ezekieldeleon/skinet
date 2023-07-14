@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ezekieldl/dotnet-projects/skinet/API/API.csproj": {}
+    "/Users/ezekieldeleon/dotnet-projects/skinet/API/API.csproj": {}
   },
   "projects": {
-    "/Users/ezekieldl/dotnet-projects/skinet/API/API.csproj": {
+    "/Users/ezekieldeleon/dotnet-projects/skinet/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ezekieldl/dotnet-projects/skinet/API/API.csproj",
+        "projectUniqueName": "/Users/ezekieldeleon/dotnet-projects/skinet/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/ezekieldl/dotnet-projects/skinet/API/API.csproj",
-        "packagesPath": "/Users/ezekieldl/.nuget/packages/",
-        "outputPath": "/Users/ezekieldl/dotnet-projects/skinet/API/obj/",
+        "projectPath": "/Users/ezekieldeleon/dotnet-projects/skinet/API/API.csproj",
+        "packagesPath": "/Users/ezekieldeleon/.nuget/packages/",
+        "outputPath": "/Users/ezekieldeleon/dotnet-projects/skinet/API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/ezekieldl/.nuget/NuGet/NuGet.Config"
+          "/Users/ezekieldeleon/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/ezekieldeleon/dotnet-projects/skinet/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/ezekieldeleon/dotnet-projects/skinet/Infrastructure/Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,10 +51,6 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.3, )"
             },
@@ -81,7 +78,125 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ezekieldeleon/dotnet-projects/skinet/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ezekieldeleon/dotnet-projects/skinet/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/ezekieldeleon/dotnet-projects/skinet/Core/Core.csproj",
+        "packagesPath": "/Users/ezekieldeleon/.nuget/packages/",
+        "outputPath": "/Users/ezekieldeleon/dotnet-projects/skinet/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ezekieldeleon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ezekieldeleon/dotnet-projects/skinet/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ezekieldeleon/dotnet-projects/skinet/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/Users/ezekieldeleon/dotnet-projects/skinet/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/ezekieldeleon/.nuget/packages/",
+        "outputPath": "/Users/ezekieldeleon/dotnet-projects/skinet/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ezekieldeleon/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ezekieldeleon/dotnet-projects/skinet/Core/Core.csproj": {
+                "projectPath": "/Users/ezekieldeleon/dotnet-projects/skinet/Core/Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

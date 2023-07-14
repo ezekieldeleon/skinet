@@ -132,3 +132,11 @@
 /Users/ezekieldl/dotnet-projects/skinet/API/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/ezekieldl/dotnet-projects/skinet/API/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/ezekieldl/dotnet-projects/skinet/API/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Humanizer.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/System.CodeDom.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Core.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Infrastructure.dll
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Infrastructure.pdb
+/Users/ezekieldeleon/dotnet-projects/skinet/API/bin/Debug/net7.0/Core.pdb
